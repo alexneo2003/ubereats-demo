@@ -4,6 +4,7 @@
 <head>
 	<title>UBER Eats</title>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=320, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./styles.css">
 	<link rel="stylesheet" type="text/css" href="./normalize.css">
 </head>
@@ -12,21 +13,21 @@
 	<main>
 		<div class="header-shadowed">
 			<div class="header">
-				<div class="col-xs-6 col-md-2 col-lg-2">
+				<div class="col-xs-6 col-md-2 col-lg-3">
 					<div class="logo">
 						<a href="#header">
 							<img src="./img/logo.svg">
 						</a>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-6">
+				<div class="col-md-6 col-lg-3">
 					<div class="location-div">
 						<button disabled class="asap">ASAP</button>
 						<span class="to">to</span>
 						<input class="location" placeholder="ul. Bolshaya Dmitrovka,22" type="text" />
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-xs-6 col-md-4 col-lg-3">
 					<div class="sign">
 						<button class="signin">Sign In</button>
 						<button class="register">Register</button>
@@ -42,6 +43,16 @@
 		<section class="main-section">
 			<div class="search-div">
 				<input class="search" type="text" placeholder="Search for restaurant or cuisine">
+			</div>
+			<div class="location-div-mobile">
+				<div class="col-xs-3 when-mobile-col">
+					<span class="when-mobile">When</span>
+					<button disabled class="asap-mobile">ASAP</button>
+				</div>
+				<div class="col-xs-9 to-mobile-col">
+					<span class="to-mobile">To</span>
+					<input class="location-mobile" placeholder="ul. Bolshaya Dmitrovka,22" type="text" />
+				</div>
 			</div>
 			<h3 class="section-title">Moscow Restaurants</h3>
 
@@ -135,7 +146,7 @@
 				</select>
 				<p class="hashtag">
 					<span style="color: #49A144">#</span>UberEats</p>
-				<div class="sotial">
+				<div class="soсial">
 					<a href="#">
 						<img src="./img/facebook.svg" alt="" class="fb">
 					</a>
@@ -170,7 +181,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-md-10 col-lg-9">
+			<div class="col-xs-6 col-md-10 col-lg-9">
 				<div class="copyright">
 					<p>© 2017 Uber Technologies Inc.</p>
 					<a href="#">Privacy</a>
