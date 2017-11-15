@@ -390,7 +390,8 @@ main {
   border-radius: 2px;
   margin: auto;
   width: auto;
-  background-color: #8cb4ff;
+  padding: 16px;
+  background-color: #ffffff;
   flex-direction: column;
   display: inline-grid;
   align-items: center;
