@@ -73,7 +73,6 @@ main {
   font-size: 13px;
   height: 26px;
   padding-left: 32px;
-  padding-right: 32px;
   padding-top: 6px;
   padding-bottom: 6px;
   border: 1px solid #e0e0e0;
@@ -84,7 +83,6 @@ main {
   background-position: 8px;
 }
 .location-mobile {
-  width: 100% - 32px;
   font-size: 13px;
   padding-right: 0px;
 }
