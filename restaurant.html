@@ -16,42 +16,35 @@
       <div class="col-xs-6 col-md-2 col-lg-3">
         <div class="logo">
           <a href="#header">
-            <img class="logo-img" src="./img/logo.svg">
+            <img class="header__logo" src="./img/logo.svg">
           </a>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
-        <div class="location-div">
-          <button disabled class="asap">ASAP</button>
-          <span class="to">to</span>
-          <input class="location" placeholder="ul. Bolshaya Dmitrovka,22" type="text" />
+        <div class="header__location">
+          <button disabled class="header__location__asap">ASAP</button>
+          <span class="header__location__to">to</span>
+          <input class="header__location__input" placeholder="ul. Bolshaya Dmitrovka,22" type="text" />
         </div>
       </div>
       <div class="col-xs-6 col-md-4 col-lg-3">
-        <div class="sign">
-          <button class="signin">Sign In</button>
-          <button class="register">Register</button>
-          <a class="basket" href="#">
+        <div class="header__sign">
+          <button class="header__button__signin">Sign In</button>
+          <button class="header__button__register">Register</button>
+          <a class="header__button__basket" href="#">
             <img src="./img/basket.svg" />
           </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="header-background-row">
-    <div class="header-background">
-
-    </div>
-    <div class="row title-row">
-      <div class="col-xs-12 col-md-6 col-lg-6">
-        <div class="restaurant-title-card">
-          <h1 class="restaurant-title">Трактир «Пушкин»</h1>
-          <div class="restaurant-title-row">
-            <span class="restaurant-kitchen">₽₽₽ • Европейская</span>
-            <div class="restaurant-time">
-              <span class="time">40 - 50 Min</span>
-            </div>
-          </div>
+  <div class="header__background">
+    <div class="header__restaurant__card">
+      <h1 class="header__restaurant__card__title">Трактир «Пушкин»</h1>
+      <div class="header__restaurant__card__title-row">
+        <span class="header__restaurant__card__kitchen">₽₽₽ • Европейская</span>
+        <div class="header__restaurant__card__time">
+          <span class="time">40 - 50 Min</span>
         </div>
       </div>
     </div>
@@ -79,24 +72,27 @@
   </div>
   <main>
 
-    <section class="main-section">
-      <h3 class="section-title-restaurant">
+    <section class="main__section__stores">
+      <h3 class="main__section__title__restaurant">
         Закуски</h3>
       <div class="restaurant-menu">
         <div class="row">
           <div class="col-xs-12 col-md-12 col-lg-6">
             <div class="menu-card">
               <div class="menu-content">
-                <div class="menu-card-title">
-                  <span>Сельдь на бородинском хлебе</span>
-                </div>
-                <div class="menu-card-description">
-                  <span>С яйцом и огурцом</span>
+                <div class="menu-content-main">
+                  <div class="menu-card-title">
+                    Сельдь на бородинском хлебе
+                  </div>
+                  <div class="menu-card-description">
+                    С яйцом и огурцом
+                  </div>
                 </div>
                 <div class="menu-card-price">
-                  <span>240 ₽</span>
+                  240 ₽
                 </div>
               </div>
+
               <img class="menu-card-img" src="./img/capture1.png" alt="Макдоналдс">
             </div>
           </div>
@@ -184,39 +180,39 @@
       </div>
     </section>
   </main>
-  <div class="footer-div">
+  <div class="footer__div">
     <div class="row">
-      <img class="footer-logo" src="./img/white-logo.svg" alt="">
+      <img class="footer__logo" src="./img/white-logo.svg" alt="">
     </div>
-    <div class="row" id="menu-row">
+    <div class="row footer__menu__row">
       <div class="col-xs-6 col-md-4 col-lg-4">
-        <select class="language">
+        <select class="footer__selector">
           <option>ENGLISH</option>
           <option>RUSSIAN</option>
         </select>
-        <p class="hashtag">
+        <p class="footer__hashtag">
           <span style="color: #49A144">#</span>UberEats</p>
-        <div class="soсial">
+        <div class="footer__soсial">
           <a href="#">
-            <img src="./img/facebook.svg" alt="" class="fb">
+            <img src="./img/facebook.svg" alt="facebook">
           </a>
           <a href="#">
-            <img src="./img/twitter.svg" alt="" class="tw">
+            <img src="./img/twitter.svg" alt="twitter">
           </a>
           <a href="#">
-            <img src="./img/instagram.svg" alt="" class="inst">
+            <img src="./img/instagram.svg" alt="instagram">
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-md-4 col-lg-4">
-        <div class="menu-about">
+        <div class="footer__menu__about">
           <a href="#">About UberEats</a>
           <a href="#">Become a Delivery Partner</a>
           <a href="#">Become a Restaurant Partner</a>
         </div>
       </div>
       <div class="col-xs-6 col-md-4 col-lg-4">
-        <div class="menu-help">
+        <div class="footer__menu__help">
           <a href="#">See all cities</a>
           <a href="#">Pricing</a>
           <a href="#">Help</a>
@@ -225,20 +221,20 @@
       </div>
     </div>
     <div class="row">
-      <div class="stores">
-        <img src="./img/play_market.png" alt="" class="market">
-        <img src="./img/app_store.png" alt="" class="store">
+      <div class="footer__stores">
+        <img src="./img/play_market.png" alt="play market">
+        <img src="./img/app_store.png" alt="app store">
       </div>
     </div>
     <div class="row">
       <div class="col-xs-6 col-md-10 col-lg-9">
-        <div class="copyright">
+        <div class="footer__copyright">
           <p>© 2017 Uber Technologies Inc.</p>
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
         </div>
       </div>
-      <button class="up" onclick="topFunction()" title="UP">
+      <button class="footer__button__up" onclick="topFunction()" title="UP">
         <img src="./img/arrow.svg" alt="" />
       </button>
     </div>
