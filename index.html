@@ -193,16 +193,14 @@
           <a href="#">Terms</a>
         </div>
       </div>
-
     </div>
-
   </div>
   </div>
   <button class="footer__button__up" id="btn__up" onclick="topFunction()" title="UP">
     <img src="./img/arrow.svg" alt="" />
   </button>
   <script>
-    // When the user scrolls down 20px from the top of the document, show the button
+    // When the user scrolls down 200px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
@@ -217,9 +215,6 @@
     function topFunction() {
       smooth_scroll_to(document.body, 0, 600);
       smooth_scroll_to(document.documentElement, 0, 600);
-      /*document.body.animate({ scrollTop: 0 }, 600);
-      document.body.scroll = 0; // For Chrome, Safari and Opera 
-      document.documentElement.scrollTop = 0; // For IE and Firefox*/
     }</script>
 
 </body>
